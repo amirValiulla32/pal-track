@@ -23,13 +23,17 @@ export function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="text-xl font-bold text-white hover:text-red-400 transition-colors">
-            <span className="text-xl font-bold hover:opacity-80 transition-opacity">
-              <span className="text-red-500">Pal</span>
-              <span className="text-green-500">Track</span>
-            </span>
-          </Link>
-
+          <Link href="/" className="flex flex-col items-start">
+  <span className="text-2xl font-extrabold text-white tracking-tight leading-none">
+    PalTrack
+  </span>
+  <div className="flex space-x-[4px] mt-[2px]">
+    <div className="w-6 h-[3px] bg-red-500 rounded-sm" />
+    <div className="w-6 h-[3px] bg-green-600 rounded-sm" />
+    <div className="w-6 h-[3px] bg-black rounded-sm" />
+    <div className="w-6 h-[3px] bg-white rounded-sm opacity-90" />
+  </div>
+</Link>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
