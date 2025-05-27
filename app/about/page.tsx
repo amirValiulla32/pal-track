@@ -142,8 +142,12 @@ export default function AboutPage() {
           <CardContent>
             <p className="text-gray-300 mb-4">
               PalTrack is a collaborative effort. We welcome contributions from researchers, journalists, developers,
-              and anyone committed to documenting truth through rigorous analysis.
+              and anyone committed to documenting truth through rigorous analysis. 
             </p>
+            <p className="text-gray-300 mb-4">
+              If you have expertise in satellite imagery, media analysis, or data verification, consider joining our
+              community. Together, we can create a more accurate and comprehensive record of events. Contact us at contact@paltrack.dev
+              </p>
             <div className="flex flex-wrap gap-2">
               <Badge variant="outline" className="border-blue-500 text-blue-400">
                 Researchers
