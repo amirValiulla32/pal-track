@@ -17,11 +17,11 @@ export default function HomePage() {
     },
     {
       id: 2,
-      title: "Media Bias Analysis: CNN Coverage of Rafah Operations",
+      title: "Media Bias Analysis: Outlet Coverage of Rafah Operations",
       type: "Article",
       date: "2024-01-12",
-      description: "Analysis of CNN's framing and language choices when reporting on military operations in Rafah.",
-      tags: ["CNN", "Bias", "Rafah"],
+      description: "Analysis of Outlet's framing and language choices when reporting on military operations in Rafah.",
+      tags: ["Outlet", "Bias", "Rafah"],
     },
     {
       id: 3,

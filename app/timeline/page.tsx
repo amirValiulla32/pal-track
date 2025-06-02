@@ -18,11 +18,11 @@ export default function TimelinePage() {
     {
       id: 2,
       date: "2024-01-18",
-      title: "BBC Underreports Jabalia Casualties",
+      title: "Outlet Underreports Jabalia Casualties",
       type: "Article",
       location: "Jabalia",
       description:
-        "BBC report significantly underreports casualty figures from Jabalia refugee camp attack, citing only Israeli military sources.",
+        "Outlet report significantly underreports casualty figures from Jabalia refugee camp attack, citing only Israeli military sources.",
       tags: ["Media Bias", "Underreporting", "BBC"],
       severity: "medium",
     },
@@ -40,12 +40,12 @@ export default function TimelinePage() {
     {
       id: 4,
       date: "2024-01-12",
-      title: "CNN Employs 'Bothsidesism' in Rafah Coverage",
+      title: "Outlet Employs 'Bothsidesism' in Rafah Coverage",
       type: "Article",
       location: "Rafah",
       description:
-        "CNN's coverage of Rafah operations presents false equivalency between military actions and civilian casualties.",
-      tags: ["CNN", "Bothsidesism", "False Equivalency"],
+        "Outlet's coverage of Rafah operations presents false equivalency between military actions and civilian casualties.",
+      tags: ["Outlet", "Bothsidesism", "False Equivalency"],
       severity: "medium",
     },
     {
@@ -62,12 +62,12 @@ export default function TimelinePage() {
     {
       id: 6,
       date: "2024-01-08",
-      title: "Reuters Omits Context in Casualty Reporting",
+      title: "Outlet Omits Context in Casualty Reporting",
       type: "Article",
       location: "Gaza Strip",
       description:
-        "Reuters report on casualty figures fails to provide historical context or mention disproportionate civilian impact.",
-      tags: ["Reuters", "Context Omission", "Casualties"],
+        "Outlet report on casualty figures fails to provide historical context or mention disproportionate civilian impact.",
+      tags: ["Outlet", "Context Omission", "Casualties"],
       severity: "low",
     },
   ]

@@ -17,10 +17,10 @@ export default function ArticlesPage() {
     {
       id: 1,
       headline: "Gaza Health Ministry Reports 500 Dead in Hospital Strike",
-      source: "BBC",
+      source: "Oulet",
       date: "2024-01-18",
       summary:
-        "BBC report significantly underreports casualty figures and relies primarily on Israeli military sources without independent verification.",
+        "Outlet report significantly underreports casualty figures and relies primarily on Israeli military sources without independent verification.",
       biasScore: "Underreporting",
       biasLevel: "high",
       url: "#",
@@ -30,10 +30,10 @@ export default function ArticlesPage() {
     {
       id: 2,
       headline: "Both Sides Suffer Losses in Gaza Conflict",
-      source: "CNN",
+      source: "Outlet A",
       date: "2024-01-15",
       summary:
-        "CNN employs false equivalency between military casualties and civilian deaths, presenting disproportionate impacts as equal.",
+        "Outlet A employs false equivalency between military casualties and civilian deaths, presenting disproportionate impacts as equal.",
       biasScore: "Bothsidesism",
       biasLevel: "high",
       url: "#",
@@ -43,10 +43,10 @@ export default function ArticlesPage() {
     {
       id: 3,
       headline: "Israeli Forces Respond to Security Threats in Gaza",
-      source: "Reuters",
+      source: "Outlet B",
       date: "2024-01-12",
       summary:
-        "Reuters frames military operations as defensive responses while omitting context about civilian infrastructure targeting.",
+        "Outlet B frames military operations as defensive responses while omitting context about civilian infrastructure targeting.",
       biasScore: "Context Omission",
       biasLevel: "medium",
       url: "#",
@@ -56,7 +56,7 @@ export default function ArticlesPage() {
     {
       id: 4,
       headline: "Humanitarian Crisis Deepens in Gaza Strip",
-      source: "Al Jazeera",
+      source: "Outlet C",
       date: "2024-01-10",
       summary: "Comprehensive reporting on humanitarian impact with proper context and multiple source verification.",
       biasScore: "Balanced",
@@ -68,7 +68,7 @@ export default function ArticlesPage() {
     {
       id: 5,
       headline: "Gaza Conflict: Complex Situation Requires Nuanced Understanding",
-      source: "The Guardian",
+      source: "Outlet D",
       date: "2024-01-08",
       summary:
         "While attempting balance, article obscures clear patterns of disproportionate civilian targeting through excessive nuance.",
@@ -81,7 +81,7 @@ export default function ArticlesPage() {
     {
       id: 6,
       headline: "International Law Experts Condemn Gaza Hospital Attacks",
-      source: "The Intercept",
+      source: "Outlet E",
       date: "2024-01-05",
       summary:
         "Detailed legal analysis with expert sources clearly identifying violations of international humanitarian law.",
@@ -152,12 +152,14 @@ export default function ArticlesPage() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">All Sources</SelectItem>
+                  {/* 
                   <SelectItem value="BBC">BBC</SelectItem>
                   <SelectItem value="CNN">CNN</SelectItem>
                   <SelectItem value="Reuters">Reuters</SelectItem>
                   <SelectItem value="Al Jazeera">Al Jazeera</SelectItem>
                   <SelectItem value="The Guardian">The Guardian</SelectItem>
                   <SelectItem value="The Intercept">The Intercept</SelectItem>
+                  */}
                 </SelectContent>
               </Select>
               <Select value={selectedBias} onValueChange={setSelectedBias}>

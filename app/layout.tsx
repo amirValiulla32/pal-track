@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   title: "PalTrack - Documenting the Truth",
   description:
     "An open-source platform archiving the destruction in Gaza through articles, satellite images, and media analysis.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
