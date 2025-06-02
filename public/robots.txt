@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://paltrack.dev
+
+# Sitemaps
+Sitemap: https://paltrack.dev/sitemap.xml
